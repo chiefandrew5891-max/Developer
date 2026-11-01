@@ -19,7 +19,7 @@ const translations = {
     premiumText: "Start with the essentials - they are enough for a full working day. Whenever you are ready to grow, Premium opens up more possibilities.",
     premiumCardLabel: "WITH PREMIUM", premiumOne: "Unlimited active appointments", premiumTwo: "Full statistics and archive access", premiumThree: "Expanded scheduling tools", premiumFour: "Advanced encrypted backups",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Make space for<br>what you <em>love.</em>", ctaText: "A more organised day is only a plan away.",
-    footerText: "For beauty professionals, by design.", privacyLink: "Privacy Policy"
+    footerText: "For beauty professionals, by design.", privacyLink: "Privacy Policy", termsLink: "Terms of Use"
   },
   ru: {
     navFeatures: "Возможности", navWorkflow: "Как это работает", navPremium: "Premium",
@@ -41,7 +41,7 @@ const translations = {
     premiumText: "Начните с базовой версии — её хватит для полноценной работы. А когда захотите масштабировать свой успех, Premium откроет безграничные возможности.",
     premiumCardLabel: "С PREMIUM", premiumOne: "Неограниченное число активных записей", premiumTwo: "Полная статистика и доступ к архиву", premiumThree: "Расширенные инструменты планирования", premiumFour: "Расширенные зашифрованные резервные копии",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Больше места для<br>того, что вы <em>любите.</em>", ctaText: "Более организованный день начинается с плана.",
-    footerText: "Для бьюти-профессионалов — с заботой о деталях.", privacyLink: "Политика конфиденциальности"
+    footerText: "Для бьюти-профессионалов — с заботой о деталях.", privacyLink: "Политика конфиденциальности", termsLink: "Условия использования"
   }
 };
 
