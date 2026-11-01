@@ -1,47 +1,47 @@
 const translations = {
   en: {
     navFeatures: "Features", navWorkflow: "How it works", navPremium: "Premium",
-    eyebrow: "FOR BEAUTY PROFESSIONALS", heroTitle: "Your workday,<br><em>beautifully</em> planned.",
-    heroText: "Beauty Planner keeps appointments, clients, services and your schedule together in one calm, focused workspace.",
+    eyebrow: "FOR BEAUTY PROFESSIONALS", heroTitle: "Your day. Your artistry.<br><em>No chaos.</em>",
+    heroText: "Leave notebook confusion behind. Beauty Planner handles appointments and clients, so you have more time for creativity and the work you love.",
     appStoreLabel: "Download on the", googlePlayLabel: "Get it on", heroLink: "See how it works",
     floatingTitle: "All set", floatingText: "2 appointments today", introEyebrow: "EVERYTHING IN ONE PLACE",
-    introTitle: "Less admin.<br><em>More you.</em>", introText: "Designed for independent specialists, home-based professionals and salon workers who want their workday to feel clear and in control.",
-    featureCalendarTitle: "A calendar that works around you", featureCalendarText: "Plan appointments in seconds, manage your working hours and block out unavailable time with ease.",
-    featureClientsTitle: "Clients, remembered", featureClientsText: "Keep client details and services close at hand. Returning client details can be filled from previous appointments.",
-    featureInsightTitle: "See your progress", featureInsightText: "Track your work and income with clear statistics, built for your business.",
-    featureCareTitle: "Your business, safely yours", featureCareText: "Create local backups, restore when needed and protect them with your own password.",
-    workflowEyebrow: "MADE FOR YOUR EVERYDAY", workflowTitle: "From first booking<br>to <em>done for the day.</em>",
-    workflowText: "Everything you need for a smoother client workflow, without making your day more complicated.",
-    stepOneTitle: "Set up your space", stepOneText: "Choose your profile, services, schedule and preferences.",
-    stepTwoTitle: "Plan your appointments", stepTwoText: "Add bookings through the calendar and see what's next at a glance.",
-    stepThreeTitle: "Focus on your clients", stepThreeText: "Use reminders, service templates and client history to keep every visit personal.",
-    premiumEyebrow: "GROW WHEN YOU'RE READY", premiumTitle: "Start simple.<br>Go <em>further.</em>",
-    premiumText: "The free version covers your daily appointments. Premium opens up more room and more tools as your business grows.",
+    introTitle: "Less admin.<br><em>More you.</em>", introText: "Created for people who make beauty - from independent home professionals to leading salon specialists. Bring perfect order to bookings without the stress.",
+    featureCalendarTitle: "A smart calendar that thinks ahead", featureCalendarText: "<strong>Plan visits in a few taps,</strong> manage available slots and say goodbye to overlapping bookings.",
+    featureClientsTitle: "Every client story in your pocket", featureClientsText: "<strong>Preferences, past services and important details</strong> stay close, so every visit feels personal.",
+    featureInsightTitle: "Your success, in numbers", featureInsightText: "<strong>Follow your income and growth</strong> through clear, easy-to-read reports.",
+    featureCareTitle: "Your data, safely yours", featureCareText: "<strong>Local backups and a personal password</strong> keep your client base where it belongs: with you.",
+    workflowEyebrow: "MADE FOR YOUR EVERYDAY", workflowTitle: "Your ideal workday,<br><em>step by step.</em>",
+    workflowText: "A simple route to order that gives you back hours of free time every week.",
+    stepOneTitle: "A quick start", stepOneText: "Set your schedule, add favourite services and your price list in just a few minutes.",
+    stepTwoTitle: "Effortless planning", stepTwoText: "Add a client to the calendar and see your whole day come together instantly.",
+    stepThreeTitle: "Focus on the person", stepThreeText: "Reminders and ready-made templates make service feel seamless and clients return.",
+    premiumEyebrow: "GROW WHEN YOU'RE READY", premiumTitle: "Work your way.<br>Grow <em>without limits.</em>",
+    premiumText: "Start with the essentials - they are enough for a full working day. Whenever you are ready to grow, Premium opens up more possibilities.",
     premiumCardLabel: "WITH PREMIUM", premiumOne: "Unlimited active appointments", premiumTwo: "Full statistics and archive access", premiumThree: "Expanded scheduling tools", premiumFour: "Advanced encrypted backups",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Make space for<br>what you <em>love.</em>", ctaText: "A more organised day is only a plan away.",
-    footerText: "For beauty professionals, by design."
+    footerText: "For beauty professionals, by design.", privacyLink: "Privacy Policy"
   },
   ru: {
     navFeatures: "Возможности", navWorkflow: "Как это работает", navPremium: "Premium",
-    eyebrow: "ДЛЯ БЬЮТИ-ПРОФЕССИОНАЛОВ", heroTitle: "Ваш рабочий день —<br><em>красиво</em> спланирован.",
-    heroText: "Beauty Planner объединяет записи, клиентов, услуги и расписание в одном спокойном и понятном пространстве.",
+    eyebrow: "ДЛЯ БЬЮТИ-ПРОФЕССИОНАЛОВ", heroTitle: "Ваш день. Ваша красота.<br><em>Никакой суеты.</em>",
+    heroText: "Забудьте про путаницу в блокнотах. Beauty Planner берёт на себя рутину с записями и клиентами, оставляя вам время только на творчество и любимое дело.",
     appStoreLabel: "Загрузить в", googlePlayLabel: "Доступно в", heroLink: "Как это работает",
     floatingTitle: "Всё готово", floatingText: "2 записи на сегодня", introEyebrow: "ВСЁ В ОДНОМ МЕСТЕ",
-    introTitle: "Меньше рутины.<br><em>Больше вас.</em>", introText: "Для частных мастеров, специалистов на дому и сотрудников салонов, которые хотят держать рабочий день под контролем.",
-    featureCalendarTitle: "Календарь, который подстраивается под вас", featureCalendarText: "Планируйте записи за секунды, управляйте графиком и отмечайте недоступное время.",
-    featureClientsTitle: "Клиенты — всегда рядом", featureClientsText: "Храните данные клиентов и услуги под рукой. Данные постоянных клиентов можно подставить из прошлых записей.",
-    featureInsightTitle: "Видьте свой прогресс", featureInsightText: "Отслеживайте работу и доход в понятной статистике для вашего дела.",
-    featureCareTitle: "Ваш бизнес — в безопасности", featureCareText: "Создавайте локальные резервные копии, восстанавливайте данные и защищайте их своим паролем.",
-    workflowEyebrow: "СОЗДАНО ДЛЯ КАЖДОГО ДНЯ", workflowTitle: "От первой записи<br>до <em>конца дня.</em>",
-    workflowText: "Всё для более удобной работы с клиентами — без лишней сложности.",
-    stepOneTitle: "Настройте пространство", stepOneText: "Выберите профиль, услуги, график и нужные параметры.",
-    stepTwoTitle: "Планируйте записи", stepTwoText: "Добавляйте встречи в календарь и сразу видьте, что дальше.",
-    stepThreeTitle: "Сосредоточьтесь на клиентах", stepThreeText: "Напоминания, шаблоны услуг и история клиентов помогут сделать каждый визит особенным.",
-    premiumEyebrow: "РАСТИТЕ, КОГДА БУДЕТЕ ГОТОВЫ", premiumTitle: "Начните просто.<br>Идите <em>дальше.</em>",
-    premiumText: "Бесплатной версии достаточно для ежедневных записей. Premium даёт больше пространства и инструментов по мере роста вашего дела.",
+    introTitle: "Меньше рутины.<br><em>Больше вас.</em>", introText: "Создано для тех, кто творит красоту: от частных мастеров на дому до топ-специалистов салонов. Наведите идеальный порядок в записях без лишних нервов.",
+    featureCalendarTitle: "Умный календарь, который думает за вас", featureCalendarText: "<strong>Планируйте визиты в пару касаний,</strong> управляйте окнами и забудьте о накладках.",
+    featureClientsTitle: "Вся история клиента в вашем кармане", featureClientsText: "<strong>Предпочтения, прошлые услуги и важные детали</strong> всегда под рукой, чтобы каждый визит был особенным.",
+    featureInsightTitle: "Ваш успех в цифрах", featureInsightText: "<strong>Следите за доходами и ростом</strong> вашего дела в понятных и наглядных отчётах.",
+    featureCareTitle: "Ваши данные под надёжной защитой", featureCareText: "<strong>Локальные резервные копии и личный пароль</strong> гарантируют, что вся клиентская база останется только вашей.",
+    workflowEyebrow: "СОЗДАНО ДЛЯ КАЖДОГО ДНЯ", workflowTitle: "Ваш идеальный рабочий день<br><em>шаг за шагом.</em>",
+    workflowText: "Простой путь к порядку, который сэкономит вам часы свободного времени каждую неделю.",
+    stepOneTitle: "Быстрый старт", stepOneText: "Задайте свой график, добавьте любимые услуги и прайс за пару минут.",
+    stepTwoTitle: "Лёгкое планирование", stepTwoText: "Добавляйте клиента в календарь и сразу видите, как строится ваш день.",
+    stepThreeTitle: "Фокус на человеке", stepThreeText: "Напоминания и готовые шаблоны сделают сервис безупречным, а клиентов — постоянными.",
+    premiumEyebrow: "РАСТИТЕ, КОГДА БУДЕТЕ ГОТОВЫ", premiumTitle: "Работайте в своём ритме.<br>Растите <em>без ограничений.</em>",
+    premiumText: "Начните с базовой версии — её хватит для полноценной работы. А когда захотите масштабировать свой успех, Premium откроет безграничные возможности.",
     premiumCardLabel: "С PREMIUM", premiumOne: "Неограниченное число активных записей", premiumTwo: "Полная статистика и доступ к архиву", premiumThree: "Расширенные инструменты планирования", premiumFour: "Расширенные зашифрованные резервные копии",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Больше места для<br>того, что вы <em>любите.</em>", ctaText: "Более организованный день начинается с плана.",
-    footerText: "Для бьюти-профессионалов — с заботой о деталях."
+    footerText: "Для бьюти-профессионалов — с заботой о деталях.", privacyLink: "Политика конфиденциальности"
   }
 };
 
@@ -51,7 +51,7 @@ let language = localStorage.getItem("beautyPlannerLanguage") || "en";
 function setLanguage(nextLanguage) {
   language = nextLanguage;
   document.documentElement.lang = language;
-  document.title = language === "ru" ? "Beauty Planner — ваш день, красиво спланирован" : "Beauty Planner — your day, beautifully planned";
+  document.title = language === "ru" ? "Beauty Planner — ваш день без суеты" : "Beauty Planner — your day, no chaos";
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     element.textContent = translations[language][element.dataset.i18n];
   });
