@@ -3,7 +3,7 @@ const translations = {
     navFeatures: "Features", navWorkflow: "How it works", navPremium: "Premium",
     eyebrow: "FOR BEAUTY PROFESSIONALS", heroTitle: "Your workday,<br><em>beautifully</em> planned.",
     heroText: "Beauty Planner keeps appointments, clients, services and your schedule together in one calm, focused workspace.",
-    heroButton: "Discover the app <span aria-hidden=\"true\">→</span>", heroLink: "See how it works", platformNote: "Available for Android and iPhone",
+    appStoreLabel: "Download on the", googlePlayLabel: "Get it on", heroLink: "See how it works",
     floatingTitle: "All set", floatingText: "2 appointments today", introEyebrow: "EVERYTHING IN ONE PLACE",
     introTitle: "Less admin.<br><em>More you.</em>", introText: "Designed for independent specialists, home-based professionals and salon workers who want their workday to feel clear and in control.",
     featureCalendarTitle: "A calendar that works around you", featureCalendarText: "Plan appointments in seconds, manage your working hours and block out unavailable time with ease.",
@@ -19,13 +19,13 @@ const translations = {
     premiumText: "The free version covers your daily appointments. Premium opens up more room and more tools as your business grows.",
     premiumCardLabel: "WITH PREMIUM", premiumOne: "Unlimited active appointments", premiumTwo: "Full statistics and archive access", premiumThree: "Expanded scheduling tools", premiumFour: "Advanced encrypted backups",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Make space for<br>what you <em>love.</em>", ctaText: "A more organised day is only a plan away.",
-    ctaButton: "Get in touch <span aria-hidden=\"true\">→</span>", footerText: "For beauty professionals, by design."
+    footerText: "For beauty professionals, by design."
   },
   ru: {
     navFeatures: "Возможности", navWorkflow: "Как это работает", navPremium: "Premium",
     eyebrow: "ДЛЯ БЬЮТИ-ПРОФЕССИОНАЛОВ", heroTitle: "Ваш рабочий день —<br><em>красиво</em> спланирован.",
     heroText: "Beauty Planner объединяет записи, клиентов, услуги и расписание в одном спокойном и понятном пространстве.",
-    heroButton: "Узнать больше <span aria-hidden=\"true\">→</span>", heroLink: "Как это работает", platformNote: "Доступно для Android и iPhone",
+    appStoreLabel: "Загрузить в", googlePlayLabel: "Доступно в", heroLink: "Как это работает",
     floatingTitle: "Всё готово", floatingText: "2 записи на сегодня", introEyebrow: "ВСЁ В ОДНОМ МЕСТЕ",
     introTitle: "Меньше рутины.<br><em>Больше вас.</em>", introText: "Для частных мастеров, специалистов на дому и сотрудников салонов, которые хотят держать рабочий день под контролем.",
     featureCalendarTitle: "Календарь, который подстраивается под вас", featureCalendarText: "Планируйте записи за секунды, управляйте графиком и отмечайте недоступное время.",
@@ -41,7 +41,7 @@ const translations = {
     premiumText: "Бесплатной версии достаточно для ежедневных записей. Premium даёт больше пространства и инструментов по мере роста вашего дела.",
     premiumCardLabel: "С PREMIUM", premiumOne: "Неограниченное число активных записей", premiumTwo: "Полная статистика и доступ к архиву", premiumThree: "Расширенные инструменты планирования", premiumFour: "Расширенные зашифрованные резервные копии",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Больше места для<br>того, что вы <em>любите.</em>", ctaText: "Более организованный день начинается с плана.",
-    ctaButton: "Связаться с нами <span aria-hidden=\"true\">→</span>", footerText: "Для бьюти-профессионалов — с заботой о деталях."
+    footerText: "Для бьюти-профессионалов — с заботой о деталях."
   }
 };
 
