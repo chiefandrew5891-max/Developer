@@ -61,6 +61,7 @@ function setLanguage(nextLanguage, policies) {
   document.querySelector("#policy-intro").textContent = policy.privacy_policy_intro;
   document.querySelector("#policy-label").textContent = language === "ru" ? "ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ" : "LEGAL";
   document.querySelector("#footer-copy").textContent = language === "ru" ? "Для бьюти-профессионалов — с заботой о деталях." : "For beauty professionals, by design.";
+  document.querySelector("#terms-link").textContent = language === "ru" ? "Условия использования" : "Terms of Use";
   document.querySelector("#back-home").textContent = language === "ru" ? "На главную" : "Back to home";
   languageButton.textContent = language === "en" ? "RU" : "EN";
   languageButton.setAttribute("aria-label", language === "en" ? "Switch to Russian" : "Переключить на английский");
