@@ -14,11 +14,9 @@
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.5; }
 a { color: inherit; text-decoration: none; }
-.site-header { width: min(1200px, calc(100% - 48px)); height: 138px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
+.site-header { width: min(1200px, calc(100% - 48px)); height: 84px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; gap: 10px; align-items: center; font-weight: 700; letter-spacing: -.03em; }
 .brand-mark { width: 31px; height: 31px; object-fit: contain; border-radius: 50%; }
-.site-header .brand { gap: 20px; font-size: 32px; }
-.site-header .brand-mark { width: 96px; height: 96px; }
 .site-nav { display: flex; gap: 30px; color: var(--muted); font-size: 14px; }
 .site-nav a:hover, .text-link:hover, .site-footer a:hover { color: var(--coral); }
 .language-switch { border: 1px solid var(--line); background: transparent; padding: 8px 11px; border-radius: 99px; cursor: pointer; color: var(--ink); font: 700 12px "DM Sans", sans-serif; }
@@ -45,8 +43,27 @@ h1 em, h2 em { color: var(--coral); font-weight: inherit; font-style: normal; }
 .orb { position: absolute; border-radius: 50%; }
 .orb-one { width: 440px; height: 440px; background: var(--peach); }
 .orb-two { width: 160px; height: 160px; background: var(--lilac); top: 38px; right: 15px; }
-.phone { position: relative; width: 260px; height: 562px; z-index: 1; overflow: hidden; background: #181818; border: 6px solid #181818; border-radius: 39px; box-shadow: 0 26px 52px #2b426433; }
-.phone-screenshot { display: block; width: 100%; height: 100%; object-fit: cover; }
+.phone { position: relative; width: 245px; height: 490px; padding: 9px; z-index: 1; background: #181818; border: 6px solid #fff; border-radius: 35px; box-shadow: 0 26px 52px #2b426433; }
+.phone-bar { height: 20px; display: grid; place-items: center; background: #fff; border-radius: 25px 25px 0 0; }
+.phone-bar span { width: 55px; height: 5px; background: #181818; border-radius: 99px; }
+.app-screen { height: calc(100% - 20px); position: relative; overflow: hidden; padding: 15px; background: #fcfaf7; border-radius: 0 0 24px 24px; font-family: "DM Sans", sans-serif; }
+.app-top { display: flex; align-items: center; gap: 7px; font-size: 8px; font-weight: 600; }
+.app-logo { display: grid; place-items: center; width: 17px; height: 17px; color: #fff; background: var(--coral); border-radius: 50%; font: 700 11px Arial, sans-serif; }
+.avatar { width: 16px; height: 16px; margin-left: auto; border-radius: 50%; background: #d3a585; }
+.calendar-head { display: flex; justify-content: space-between; margin: 22px 0 15px; font-size: 9px; }
+.week-days, .calendar-days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; text-align: center; font-size: 7px; }
+.week-days { color: #a7aaa6; margin-bottom: 9px; }
+.calendar-days span { display: grid; place-items: center; height: 20px; }
+.calendar-days .selected-day { color: #fff; background: var(--coral); border-radius: 50%; }
+.appointments { margin-top: 21px; padding-top: 16px; border-top: 1px solid #eee9e2; }
+.appointments p { margin: 0 0 11px; color: #a5a7a4; font-size: 6px; font-weight: 700; letter-spacing: .08em; }
+.appointment { display: grid; grid-template-columns: 27px 7px 1fr; align-items: center; gap: 5px; margin: 11px 0; font-size: 7px; }
+.appointment-time { color: #858b87; }
+.appointment-dot { display: block; width: 6px; height: 28px; background: #8eb6a1; border-radius: 99px; }
+.appointment-dot.coral { background: var(--coral); }
+.appointment b, .appointment small { display: block; }
+.appointment small { color: #949995; font-size: 6px; margin-top: 2px; }
+.add-button { position: absolute; right: 16px; bottom: 17px; display: grid; place-items: center; width: 31px; height: 31px; background: var(--ink); color: #fff; border-radius: 50%; font-size: 19px; }
 .floating-card { position: absolute; z-index: 2; right: 3%; bottom: 78px; display: flex; align-items: center; gap: 9px; min-width: 153px; padding: 11px 14px; background: #fff; border-radius: 11px; box-shadow: 0 12px 30px #50473c21; font-size: 10px; }
 .floating-card b, .floating-card small { display: block; }
 .floating-card small { color: var(--muted); margin-top: 2px; font-size: 8px; }
@@ -71,5 +88,5 @@ h1 em, h2 em { color: var(--coral); font-weight: inherit; font-style: normal; }
 .premium-card { position: relative; padding: 34px; background: #e8f0fe; color: var(--ink); border-radius: 4px; }.premium-label { margin: 0 0 20px; color: #496990; font-size: 10px; font-weight: 700; letter-spacing: .14em; }.premium-card ul { margin: 0; padding: 0; list-style: none; }.premium-card li { padding: 12px 0 12px 25px; border-bottom: 1px solid #c9dbf8; font-size: 14px; font-weight: 600; }.premium-card li::before { content: "✓"; position: absolute; left: 0; color: var(--coral); font-weight: 700; }.premium-card li { position: relative; }.premium-card li:last-child { border: 0; }.sparkle { position: absolute; right: 23px; top: 17px; color: var(--coral); font-size: 25px; }
 .cta { margin: 0; padding: 120px 24px; color: #fff; text-align: center; background: var(--coral); }.cta .eyebrow { color: #dbeaff; }.cta h2 em { color: #202124; }.cta > p:not(.eyebrow) { margin: 22px 0 30px; color: #edf4ff; }.store-links-centered { justify-content: center; }.store-button-light { border-color: #fff; }.button-light { background: #fff; color: var(--ink); }.button-light:hover { background: var(--paper); }
 .site-footer { width: min(1200px, calc(100% - 48px)); min-height: 100px; margin: auto; display: flex; align-items: center; justify-content: space-between; color: var(--muted); font-size: 13px; }.site-footer p { margin: 0; }.site-footer > a:last-child { text-decoration: underline; text-underline-offset: 3px; }
-@media (max-width: 760px) { .site-header { width: min(100% - 32px, 600px); height: 88px; }.site-header .brand { gap: 10px; font-size: 20px; }.site-header .brand-mark { width: 54px; height: 54px; }.site-nav { display: none; }.hero { width: min(100% - 32px, 600px); grid-template-columns: 1fr; padding-top: 52px; text-align: center; }.hero-copy { display: grid; justify-items: center; }.hero-text { font-size: 16px; }.hero-visual { min-height: 485px; }.phone { transform: scale(.88); }.orb-one { width: 370px; height: 370px; }.floating-card { right: 1%; bottom: 54px; }.intro { width: min(100% - 32px, 600px); padding-top: 80px; }.feature-grid { width: min(100% - 32px, 600px); grid-template-columns: 1fr; }.feature-card { min-height: 290px; }.workflow { width: min(100% - 32px, 600px); margin: 90px auto; grid-template-columns: 1fr; gap: 45px; }.premium { width: min(100% - 32px, 600px); margin-bottom: 65px; padding: 42px 25px; grid-template-columns: 1fr; gap: 35px; }.cta { padding: 90px 20px; }.site-footer { width: min(100% - 32px, 600px); padding: 25px 0; min-height: auto; flex-wrap: wrap; gap: 15px; }.site-footer p { order: 3; width: 100%; } }
+@media (max-width: 760px) { .site-header { width: min(100% - 32px, 600px); height: 70px; }.site-nav { display: none; }.hero { width: min(100% - 32px, 600px); grid-template-columns: 1fr; padding-top: 52px; text-align: center; }.hero-copy { display: grid; justify-items: center; }.hero-text { font-size: 16px; }.hero-visual { min-height: 485px; }.phone { transform: scale(.88); }.orb-one { width: 370px; height: 370px; }.floating-card { right: 1%; bottom: 54px; }.intro { width: min(100% - 32px, 600px); padding-top: 80px; }.feature-grid { width: min(100% - 32px, 600px); grid-template-columns: 1fr; }.feature-card { min-height: 290px; }.workflow { width: min(100% - 32px, 600px); margin: 90px auto; grid-template-columns: 1fr; gap: 45px; }.premium { width: min(100% - 32px, 600px); margin-bottom: 65px; padding: 42px 25px; grid-template-columns: 1fr; gap: 35px; }.cta { padding: 90px 20px; }.site-footer { width: min(100% - 32px, 600px); padding: 25px 0; min-height: auto; flex-wrap: wrap; gap: 15px; }.site-footer p { order: 3; width: 100%; } }
 @media (max-width: 390px) { .store-links { justify-content: center; }.store-button { min-width: 148px; }.feature-card { padding: 26px; }.feature-card h3 { font-size: 26px; }.mini-calendar, .backup-art { transform: scale(.8); transform-origin: bottom right; } }
