@@ -100,6 +100,7 @@ function setLanguage(nextLanguage) {
   document.querySelector("#footer-copy").textContent = termsCopy.footer;
   document.querySelector("#privacy-link").textContent = termsCopy.privacyLabel;
   languageButton.value = language;
+  document.querySelectorAll("[data-nav]").forEach((link, index) => { link.textContent = window.extraI18n.legal[language].nav[index]; });
   localStorage.setItem("beautyPlannerLanguage", language);
   renderTerms(document.querySelector("#terms-content"), termsCopy);
 }
