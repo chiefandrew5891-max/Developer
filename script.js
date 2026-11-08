@@ -24,6 +24,7 @@ const translations = {
     premiumEyebrow: "GROW WHEN YOU'RE READY", premiumTitle: "Work your way.<br>Grow <em>without limits.</em>",
     premiumText: "Start with the essentials - they are enough for a full working day. Whenever you are ready to grow, Premium opens up more possibilities.",
     premiumCardLabel: "WITH PREMIUM", premiumOne: "Unlimited active appointments", premiumTwo: "Full statistics and archive access", premiumThree: "Expanded scheduling tools", premiumFour: "Advanced encrypted backups",
+    videosEyebrow: "SEE IT IN ACTION", videosTitle: "Beauty Planner <em>in motion.</em>", videosText: "Watch how a calm, organised workday looks with Beauty Planner.",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Make space for<br>what you <em>love.</em>", ctaText: "A more organised day is only a plan away.",
     footerText: "For beauty professionals, by design.", privacyLink: "Privacy Policy"
   },
@@ -46,6 +47,7 @@ const translations = {
     premiumEyebrow: "РАСТИТЕ, КОГДА БУДЕТЕ ГОТОВЫ", premiumTitle: "Работайте в своём ритме.<br>Растите <em>без ограничений.</em>",
     premiumText: "Начните с базовой версии — её хватит для полноценной работы. А когда захотите масштабировать свой успех, Premium откроет безграничные возможности.",
     premiumCardLabel: "С PREMIUM", premiumOne: "Неограниченное число активных записей", premiumTwo: "Полная статистика и доступ к архиву", premiumThree: "Расширенные инструменты планирования", premiumFour: "Расширенные зашифрованные резервные копии",
+    videosEyebrow: "СМОТРИТЕ В ДЕЙСТВИИ", videosTitle: "Beauty Planner <em>в движении.</em>", videosText: "Посмотрите, как выглядит спокойный и организованный рабочий день с Beauty Planner.",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Больше места для<br>того, что вы <em>любите.</em>", ctaText: "Более организованный день начинается с плана.",
     footerText: "Для бьюти-профессионалов — с заботой о деталях.", privacyLink: "Политика конфиденциальности"
   }
