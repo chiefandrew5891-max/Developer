@@ -83,3 +83,8 @@ h1 em, h2 em { color: var(--coral); font-weight: inherit; font-style: normal; }
 .video-wide { flex: 1 1 auto; max-width: 760px; aspect-ratio: 16 / 9; }
 .video-short { flex: 0 0 auto; width: 270px; aspect-ratio: 9 / 16; }
 @media (max-width: 760px) { .videos { width: min(100% - 32px, 600px); margin-bottom: 65px; }.video-grid { flex-direction: column; }.video-wide { width: 100%; }.video-short { width: min(100%, 300px); } }
+
+.legal-links { display: flex; align-items: center; gap: 28px; }
+.legal-links a + a { position: relative; }
+.legal-links a + a::before { content: ""; position: absolute; left: -14px; top: 50%; width: 1px; height: 14px; background: var(--line); transform: translateY(-50%); }
+@media (max-width: 760px) { .legal-links { gap: 24px; } }
