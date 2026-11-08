@@ -51,7 +51,7 @@ const terms = {
   }
 };
 
-const contactEmail = "beautyplanner2026@gmail.com";
+const contactEmail = "support@beautyplanner.app";
 const languageButton = document.querySelector(".language-switch");
 let language = localStorage.getItem("beautyPlannerLanguage") || "en";
 
