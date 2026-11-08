@@ -95,7 +95,6 @@ function setLanguage(nextLanguage) {
   document.querySelector("#terms-intro").textContent = termsCopy.intro;
   document.querySelector("#footer-copy").textContent = termsCopy.footer;
   document.querySelector("#privacy-link").textContent = termsCopy.privacyLabel;
-  document.querySelector("#back-home").textContent = termsCopy.backHome;
   languageButton.textContent = language === "en" ? "RU" : "EN";
   languageButton.setAttribute("aria-label", language === "en" ? "Switch to Russian" : "Переключить на английский");
   localStorage.setItem("beautyPlannerLanguage", language);
