@@ -71,6 +71,7 @@ function setLanguage(nextLanguage, policies) {
   document.querySelector("#footer-copy").textContent = ui[language].footer;
   document.querySelector("#terms-link").textContent = ui[language].terms;
   languageButton.value = language;
+  document.querySelectorAll("[data-nav]").forEach((link, index) => { link.textContent = ui[language].nav[index]; });
   localStorage.setItem("beautyPlannerLanguage", language);
   renderPolicy(policy);
 }
