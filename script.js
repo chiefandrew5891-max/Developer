@@ -26,7 +26,7 @@ const translations = {
     premiumCardLabel: "WITH PREMIUM", premiumOne: "Unlimited active appointments", premiumTwo: "Full statistics and archive access", premiumThree: "Expanded scheduling tools", premiumFour: "Advanced encrypted backups",
     videosEyebrow: "SEE IT IN ACTION", videosTitle: "Beauty Planner <em>in motion.</em>", videosText: "Watch how a calm, organised workday looks with Beauty Planner.",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Make space for<br>what you <em>love.</em>", ctaText: "A more organised day is only a plan away.",
-    footerText: "For beauty professionals, by design.", privacyLink: "Privacy Policy"
+    footerText: "For beauty professionals, by design.", privacyLink: "Privacy Policy", termsLink: "Terms of Use"
   },
   ru: {
     navFeatures: "Возможности", navWorkflow: "Как это работает", navPremium: "Premium",
@@ -49,27 +49,28 @@ const translations = {
     premiumCardLabel: "С PREMIUM", premiumOne: "Неограниченное число активных записей", premiumTwo: "Полная статистика и доступ к архиву", premiumThree: "Расширенные инструменты планирования", premiumFour: "Расширенные зашифрованные резервные копии",
     videosEyebrow: "СМОТРИТЕ В ДЕЙСТВИИ", videosTitle: "Beauty Planner <em>в движении.</em>", videosText: "Посмотрите, как выглядит спокойный и организованный рабочий день с Beauty Planner.",
     ctaEyebrow: "BEAUTY PLANNER", ctaTitle: "Больше места для<br>того, что вы <em>любите.</em>", ctaText: "Более организованный день начинается с плана.",
-    footerText: "Для бьюти-профессионалов — с заботой о деталях.", privacyLink: "Политика конфиденциальности"
+    footerText: "Для бьюти-профессионалов — с заботой о деталях.", privacyLink: "Политика конфиденциальности", termsLink: "Условия использования"
   }
 };
 
+Object.assign(translations, window.extraI18n.index);
+
 const switcher = document.querySelector(".language-switch");
-let language = localStorage.getItem("beautyPlannerLanguage") || "en";
+let language = (translations[localStorage.getItem("beautyPlannerLanguage")] ? localStorage.getItem("beautyPlannerLanguage") : "en");
 
 function setLanguage(nextLanguage) {
   language = nextLanguage;
   document.documentElement.lang = language;
-  document.title = language === "ru" ? "Beauty Planner — ваш день без суеты" : "Beauty Planner — your day, no chaos";
+  document.title = window.extraI18n.titles[language];
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     element.textContent = translations[language][element.dataset.i18n];
   });
   document.querySelectorAll("[data-i18n-html]").forEach((element) => {
     element.innerHTML = translations[language][element.dataset.i18nHtml];
   });
-  switcher.textContent = language === "en" ? "RU" : "EN";
-  switcher.setAttribute("aria-label", language === "en" ? "Switch to Russian" : "Переключить на английский");
+  switcher.value = language;
   localStorage.setItem("beautyPlannerLanguage", language);
 }
 
-switcher.addEventListener("click", () => setLanguage(language === "en" ? "ru" : "en"));
+switcher.addEventListener("change", () => setLanguage(switcher.value));
 setLanguage(language);

@@ -51,9 +51,13 @@ const terms = {
   }
 };
 
-const contactEmail = "beautyplanner2026@gmail.com";
+for (const [code, copy] of Object.entries(window.extraI18n.terms)) {
+  terms[code] = { ...copy, label: window.extraI18n.legal[code].label, privacyLabel: window.extraI18n.legal[code].privacy, footer: window.extraI18n.legal[code].footer };
+}
+
+const contactEmail = "support@beautyplanner.app";
 const languageButton = document.querySelector(".language-switch");
-let language = localStorage.getItem("beautyPlannerLanguage") || "en";
+let language = terms[localStorage.getItem("beautyPlannerLanguage")] ? localStorage.getItem("beautyPlannerLanguage") : "en";
 
 function renderTerms(content, termsCopy) {
   content.replaceChildren();
@@ -95,11 +99,10 @@ function setLanguage(nextLanguage) {
   document.querySelector("#terms-intro").textContent = termsCopy.intro;
   document.querySelector("#footer-copy").textContent = termsCopy.footer;
   document.querySelector("#privacy-link").textContent = termsCopy.privacyLabel;
-  languageButton.textContent = language === "en" ? "RU" : "EN";
-  languageButton.setAttribute("aria-label", language === "en" ? "Switch to Russian" : "Переключить на английский");
+  languageButton.value = language;
   localStorage.setItem("beautyPlannerLanguage", language);
   renderTerms(document.querySelector("#terms-content"), termsCopy);
 }
 
-languageButton.addEventListener("click", () => setLanguage(language === "en" ? "ru" : "en"));
+languageButton.addEventListener("change", () => setLanguage(languageButton.value));
 setLanguage(language);
