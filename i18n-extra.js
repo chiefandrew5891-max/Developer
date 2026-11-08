@@ -6,10 +6,10 @@ window.extraI18n = {
     de: "Beauty Planner — Ihr Tag, ohne Chaos"
   },
   legal: {
-    en: { label: "LEGAL", footer: "For beauty professionals, by design.", privacy: "Privacy Policy", terms: "Terms of Use" },
-    ru: { label: "ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ", footer: "Для бьюти-профессионалов — с заботой о деталях.", privacy: "Политика конфиденциальности", terms: "Условия использования" },
-    it: { label: "INFORMAZIONI LEGALI", footer: "Per i professionisti della bellezza, fin nei dettagli.", privacy: "Informativa sulla privacy", terms: "Condizioni d'uso" },
-    de: { label: "RECHTLICHES", footer: "Für Beauty-Profis – bis ins kleinste Detail.", privacy: "Datenschutzerklärung", terms: "Nutzungsbedingungen" }
+    en: { nav: ["Features", "How it works", "Premium"], label: "LEGAL", footer: "For beauty professionals, by design.", privacy: "Privacy Policy", terms: "Terms of Use" },
+    ru: { nav: ["Возможности", "Как это работает", "Premium"], label: "ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ", footer: "Для бьюти-профессионалов — с заботой о деталях.", privacy: "Политика конфиденциальности", terms: "Условия использования" },
+    it: { nav: ["Funzionalità", "Come funziona", "Premium"], label: "INFORMAZIONI LEGALI", footer: "Per i professionisti della bellezza, fin nei dettagli.", privacy: "Informativa sulla privacy", terms: "Condizioni d'uso" },
+    de: { nav: ["Funktionen", "So funktioniert's", "Premium"], label: "RECHTLICHES", footer: "Für Beauty-Profis – bis ins kleinste Detail.", privacy: "Datenschutzerklärung", terms: "Nutzungsbedingungen" }
   },
   index: {
     it: {
